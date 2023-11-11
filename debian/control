@@ -1,0 +1,12 @@
+Source: ros-noetic-humanoid-nav-msgs
+Section: misc
+Priority: optional
+Maintainer: Ronaldson Bellande <ronaldsonbellande@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-actionlib-msgs, ros-noetic-catkin, ros-noetic-geometry-msgs, ros-noetic-message-generation, ros-noetic-std-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-humanoid-nav-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-actionlib-msgs, ros-noetic-geometry-msgs, ros-noetic-message-runtime, ros-noetic-std-msgs
+Description: Messages and services for humanoid robot navigation

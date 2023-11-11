@@ -1,0 +1,46 @@
+ros-noetic-humanoid-nav-msgs (0.3.2-1focal) focal; urgency=high
+
+  * Make it compatible for ROS1/ROS2
+  * Fix bugs
+  * Update package.xml and CMakeList.txt for to the latest versions
+  * Contributors & Maintainer: Ronaldson Bellande
+
+ -- Ronaldson Bellande <ronaldsonbellande@gmail.com>  Tue, 03 Oct 2023 04:00:00 -0000
+
+ros-noetic-humanoid-nav-msgs (0.3.1-1focal) focal; urgency=high
+
+  * Starting from this point it under a new license
+  * Fix errors and Issues
+  * Rename Repository for a completely different purpose
+  * Make it compatible with ROS/ROS2
+  * Upgrade version of all builds and make it more compatible
+  * Update package.xml and CMakeList.txt for to the latest versions
+  * Contributors & Maintainer: Ronaldson Bellande
+
+ -- Ronaldson Bellande <ronaldsonbellande@gmail.com>  Wed, 27 Sep 2023 04:00:00 -0000
+
+ros-noetic-humanoid-nav-msgs (0.3.0-1focal) focal; urgency=high
+
+  * Add service to (re)plan between feet as start and goal.
+  * Contributors: Armin Hornung
+
+ -- Ronaldson Bellande <ronaldsonbellande@gmail.com>  Thu, 16 Jan 2014 05:00:00 -0000
+
+ros-noetic-humanoid-nav-msgs (0.2.0-1focal) focal; urgency=high
+
+  * Initial catkinization
+
+ -- Ronaldson Bellande <ronaldsonbellande@gmail.com>  Fri, 25 Oct 2013 04:00:00 -0000
+
+ros-noetic-humanoid-nav-msgs (0.1.2-1focal) focal; urgency=high
+
+  * spelling mistake corrected
+  * added more details to PlanFootsteps srv result
+  * action ExecFootsteps can now feedback changeable_footsteps and robot_pose (see naoqi docu for further info)
+  * integrated a new action to communicate with the action server provided by nao_footsteps.py in the nao_driver package
+  * service to clip footsteps
+  * moved humanoid_nav_msgs into new humanoid_msgs stack
+
+ -- Ronaldson Bellande <ronaldsonbellande@gmail.com>  Thu, 10 Jan 2013 05:00:00 -0000
+
+
