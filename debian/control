@@ -1,0 +1,12 @@
+Source: ros-noetic-humanoid-msgs
+Section: misc
+Priority: optional
+Maintainer: Ronaldson Bellande <ronaldsonbellande@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-humanoid-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, 
+Description: Messages and services for humanoid robots
