@@ -1,0 +1,12 @@
+Source: ros-noetic-humanoid-robot-online-walking-module-msgs
+Section: misc
+Priority: optional
+Maintainer: Ronaldson Bellande <ronaldsonbellande@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-geometry-msgs, ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-sensor-msgs, ros-noetic-std-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-humanoid-robot-online-walking-module-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-geometry-msgs, ros-noetic-message-generation, ros-noetic-message-runtime, ros-noetic-sensor-msgs, ros-noetic-std-msgs
+Description: This package includes ROS messages and services for the ROBOTIS HUMANOID_ROBOT packages
