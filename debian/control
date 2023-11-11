@@ -1,0 +1,12 @@
+Source: ros-noetic-humanoid-robot-msgs
+Section: misc
+Priority: optional
+Maintainer: Ronaldson Bellande <ronaldsonbellande@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-humanoid-robot-action-module-msgs, ros-noetic-humanoid-robot-offset-tuner-msgs, ros-noetic-humanoid-robot-online-walking-module-msgs, ros-noetic-humanoid-robot-walking-module-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-humanoid-robot-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-humanoid-robot-action-module-msgs, ros-noetic-humanoid-robot-offset-tuner-msgs, ros-noetic-humanoid-robot-online-walking-module-msgs, ros-noetic-humanoid-robot-walking-module-msgs
+Description: ROS messages packages for the ROBOTIS HUMANOID_ROBOT (meta package)

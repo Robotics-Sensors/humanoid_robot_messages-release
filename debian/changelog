@@ -1,0 +1,37 @@
+ros-noetic-humanoid-robot-msgs (0.3.2-1focal) focal; urgency=high
+
+  * Make it compatible for ROS1/ROS2
+  * Fix bugs
+  * Update package.xml and CMakeList.txt for to the latest versions
+  * Contributors & Maintainer: Ronaldson Bellande
+
+ -- Ronaldson Bellande <ronaldsonbellande@gmail.com>  Tue, 03 Oct 2023 04:00:00 -0000
+
+ros-noetic-humanoid-robot-msgs (0.3.1-1focal) focal; urgency=high
+
+  * Starting from this point it under a new license
+  * Fix errors and Issues
+  * Rename Repository for a completely different purpose
+  * Make it compatible with ROS/ROS2
+  * Upgrade version of all builds and make it more compatible
+  * Update package.xml and CMakeList.txt for to the latest versions
+  * Contributors & Maintainer: Ronaldson Bellande
+
+ -- Ronaldson Bellande <ronaldsonbellande@gmail.com>  Wed, 27 Sep 2023 04:00:00 -0000
+
+ros-noetic-humanoid-robot-msgs (0.1.1-1focal) focal; urgency=high
+
+  * added online walking module msgs
+  * changed package.xml format to v2
+  * Contributors: Pyo
+
+ -- Ronaldson Bellande <ronaldsonbellande@gmail.com>  Wed, 21 Mar 2018 04:00:00 -0000
+
+ros-noetic-humanoid-robot-msgs (0.1.0-1focal) focal; urgency=high
+
+  * added msg package for ROBOTIS HUMANOID_ROBOT
+  * Contributors: Kayman
+
+ -- Ronaldson Bellande <ronaldsonbellande@gmail.com>  Fri, 27 Oct 2017 04:00:00 -0000
+
+
